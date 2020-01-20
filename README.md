@@ -28,6 +28,7 @@ public class robotscreencapture {
 			BufferedImage bf = r.createScreenCapture(re);
 			ImageIO.write(bf,"png", new File("./capture.png"));
 			System.out.println("done");
+			System.out.println("ok");
 		
 		
 		
